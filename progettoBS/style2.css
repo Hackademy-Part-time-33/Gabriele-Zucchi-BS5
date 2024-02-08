@@ -1,0 +1,20 @@
+.img-header{
+    background-image: url("https://picsum.photos/1920/400");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+body{
+    margin: 0 auto;
+}
+
+.margine{
+    margin-bottom: 80px;
+}
+
+.sfondo{
+    background-color: black;
+    padding: 50px;
+}
