@@ -10,23 +10,31 @@
     <link rel="stylesheet" href="style2.css">
 </head>
 
-<body class="w-75">
+<body >
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    <a class="nav-link" href="#">Features</a>
-                    <a class="nav-link" href="#">Pricing</a>
-                </div>
-            </div>
+          <a class="navbar-brand" href="#">Navbar w/ text</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+            </ul>
+            <span class="navbar-text">
+              <a class="nav-link" href="">Book table</a>
+            </span>
+          </div>
         </div>
-    </nav>
+      </nav>
     <section class=" img-header bg-primary w-100 d-flex flex-column justify-content-center align-items-center text-white">
         <h3>La lune french bistro</h3>
         <h1>A taste of paris</h1>
@@ -46,7 +54,7 @@
             <button class="position-absolute bottom-o end-0">Book now</button>
         </div>
     </section>
-    <section class="d-flex justify-content-center">
+    <section class="d-flex justify-content-evenly">
         <figure class="m-3">
             <img src="https://picsum.photos/250/250" alt="">
             <figcaption>mouthwatering appetizers</figcaption>
@@ -62,10 +70,10 @@
     </section>
 
     <section class="sfondo text-center text-white">
-        <h1>Love for la lune</h1>
+        <h1 class="mb-5">Love for la lune</h1>
         <div class="d-flex">
-            <div class="w-75 m-3">
-                <h1>''</h1>
+            <div class="w-75 m-3 d-flex flex-column">
+                <h1 class="align-self-start fs-1">''</h1>
                 <h4><strong>Transported to paris</strong></h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi dolore nulla amet enim
                     laboriosam
@@ -73,8 +81,8 @@
                     omnis inventore.</p>
                 <p>- Teddy, Entreprenur</p>
             </div>
-            <div class="w-75 m-3">
-                <h1>''</h1>
+            <div class="w-75 m-3 d-flex flex-column">
+                <h1 class="align-self-start fs-1">''</h1>
                 <h4><strong>Transported to paris</strong></h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi dolore nulla amet enim
                     laboriosam
@@ -82,8 +90,8 @@
                     omnis inventore.</p>
                 <p>- Teddy, Entreprenur</p>
             </div>
-            <div class="w-75 m-3">
-                <h1>''</h1>
+            <div class="w-75 m-3 d-flex flex-column">
+                <h1  class="align-self-start fs-1">''</h1>
                 <h4><strong>Transported to paris</strong></h4>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt modi dolore nulla amet enim
                     laboriosam
@@ -93,8 +101,8 @@
             </div>
         </div>
     </section>
-    <section class="d-flex">
-        <img src="https://picsum.photos/250/250" alt="">
+    <section class="d-flex justify-content-start align-items-center">
+        <img class="resizing" src="https://picsum.photos/250/250" alt="">
         <div class="ms-5">
             <h1>See you soon</h1>
             <p><strong>Phone number</strong></p>
