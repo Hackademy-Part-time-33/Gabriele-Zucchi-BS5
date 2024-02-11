@@ -17,12 +17,10 @@ body{
     margin-bottom: 80px;
 }
 
-.sfondo{
-    background-color: black;
-    padding: 50px;
+.modal-content{
+    background-color: brown;
 }
 
-.resizing {
-    width: 30%;
-    height: 600px;
+.bg-brown{
+    background-color: brown;
 }
