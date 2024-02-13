@@ -1,17 +1,21 @@
 body{
     width: 90%;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
-.img-header{
-    background-image: url("https://picsum.photos/1920/400");
-    height: 400px;
-    background-repeat: no-repeat;
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('./assets/kitsune.jpg');
     background-size: cover;
-    margin-bottom: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+.mio-font{
+    font-size: 50px;
 }
-
-
 
 .margine{
     margin-bottom: 80px;
