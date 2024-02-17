@@ -1,0 +1,67 @@
+:root {
+    --main-color: rgb(27, 81, 138);
+    --sec-color: rgb(225, 198, 25);
+    --third-color: rgb(126, 140, 82);
+}
+
+h1 {
+    font-family: "Protest Riot", sans-serif;
+}
+
+p {
+    font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style:normal;
+}
+
+
+button {
+    font-family: "Fira Sans", sans-serif;
+  font-weight: 800;
+}
+#logo-main {
+    width: 100%;
+    height: 50px;
+}
+
+
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('./assets/img.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.main-color {
+    background-color: var(--main-color);
+}
+
+.sec-color {
+    background-color: var(--sec-color);
+}
+
+.third-color {
+    background-color: var(--third-color);
+}
+
+
+#contact {
+    background-color: var(--main-color);
+}
+
+
+#contact:hover {
+    box-shadow: 0px 0px 25px 5px black;
+}
+
+.mine-border {
+    border: 6px solid var(--main-color);
+}
+
+.mine-shadow-card:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
